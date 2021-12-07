@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "time-management-ea4a9": {
+      "hosting": {
+        "time-management": [
+          "time-management-ea4a9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "time-management-ea4a9"
+  }
+}

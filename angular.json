@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "time-management:build:production",
+            "firebaseProject": "time-management-ea4a9",
+            "firebaseHostingSite": "time-management-ea4a9"
+          }
         }
       }
     }
